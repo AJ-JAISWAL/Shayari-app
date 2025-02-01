@@ -38,7 +38,7 @@ Once the image is pulled, you can run the container using the following command 
  -p 8501:8501: Maps port 8501 on your local machine to port 8501 in the container.
 
 Step 3: Access the App
-Open your web browser and navigate to :  [http://localhost:8501]
+Open your web browser and navigate to :  [https://localhost:8501]
 
 You should see the Shayari App up and running!
 
