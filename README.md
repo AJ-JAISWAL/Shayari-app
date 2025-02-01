@@ -29,9 +29,7 @@ Docker Compose (optional): If you want to use Docker Compose for easier manageme
 ## Getting Started
 
 Step 1: Pull the Docker Image
-You can pull the pre-built Docker image from Docker Hub using the following command : <br>["docker pull <your-dockerhub-username>/shayari-app:latest"]
-
-Replace <your-dockerhub-username> with your Docker Hub username or the repository name where the image is hosted.
+You can pull the pre-built Docker image from Docker Hub using the following command : <br>[https://hub.docker.com/r/anantjaiswal2002/shayari-app]
 
 Step 2: Run the Docker Container
 Once the image is pulled, you can run the container using the following command : <br>["docker run -d -e GROK_API_KEY="your-secret-api-key" -p 8501:8501 <your-dockerhub-username>/shayari-app:latest"]
