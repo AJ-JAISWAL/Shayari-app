@@ -29,18 +29,21 @@ Docker Compose (optional): If you want to use Docker Compose for easier manageme
 ## Getting Started
 
 Step 1: Pull the Docker Image
-You can pull the pre-built Docker image from Docker Hub using the following command: "docker pull <your-dockerhub-username>/shayari-app:latest"
+You can pull the pre-built Docker image from Docker Hub using the following command :
+ ["docker pull <your-dockerhub-username>/shayari-app:latest"]
 
 Replace <your-dockerhub-username> with your Docker Hub username or the repository name where the image is hosted.
 
 Step 2: Run the Docker Container
-Once the image is pulled, you can run the container using the following command: "docker run -d -e GROK_API_KEY="your-secret-api-key" -p 8501:8501 <your-dockerhub-username>/shayari-app:latest"
+Once the image is pulled, you can run the container using the following command : 
+ ["docker run -d -e GROK_API_KEY="your-secret-api-key" -p 8501:8501 <your-dockerhub-username>/shayari-app:latest"]
 
  -d: Runs the container in detached mode (in the background).
- -p 5000:5000: Maps port 5000 on your local machine to port 5000 in the container.
+ -p 8501:8501: Maps port 8501 on your local machine to port 8501 in the container.
 
 Step 3: Access the App
-Open your web browser and navigate to: "http://localhost:8501"
+Open your web browser and navigate to :
+ ["http://localhost:8501"]
 
 You should see the Shayari App up and running!
 
